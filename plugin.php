@@ -11,7 +11,7 @@ class kokenback2top extends KokenPlugin {
   {     
         
         ?>
-        <link rel="stylesheet" type="text/css" href="/storage/plugins/koken-back2top/css/back2top.css">
+        <link rel="stylesheet" type="text/css" href="/storage/plugins/koken-plugin-back2top/css/back2top.css">
         <script>
         $(document).ready(function(){
 

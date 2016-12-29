@@ -1,0 +1,10 @@
+{ 
+  "name": "Back2Top",
+  "version": "1.0",
+  "description": "Adds a button to your site wich scroll animated back to top of your site",
+  "demo": "https://medialyse-photography.de",
+  "author": {
+    "name": "Michael Schunk",
+    "link": "https://github.com/NiTRoeSE"
+  }
+}

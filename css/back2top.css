@@ -1,0 +1,11 @@
+
+.back2top_button {
+    
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    background:rgba(120, 120, 120, 0.8) url(arrow.svg) no-repeat center 50%;
+    bottom:20px;
+    right:20px;
+     
+}

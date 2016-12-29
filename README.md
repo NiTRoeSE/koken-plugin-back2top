@@ -1,23 +1,33 @@
+Koken Back2Top Plugin
+=======================
+
 Installation:
 -------------
 
 
-1. Go to your koken plugins folder
--->   cd /Your/path/to/koken/storage/plugins
+Go to your koken plugins folder
 
-2. Clone the repository                                
--->   git clone https://github.com/NiTRoeSE/koken-plugin-back2top.git
+```bash
+cd /Your/path/to/koken/storage/plugins
+```
 
+Clone the repository                                
 
+```bash
+git clone https://github.com/NiTRoeSE/koken-plugin-back2top.git
+```
 
 Update to newer version:
 -----------------------
 
 
-1. Go to your koken-plugin-back2top plugin folder     
--->   cd /Your/path/to/koken/storage/plugins/koken-plugin-back2top
+Go to your koken-plugin-back2top plugin folder     
 
-2. Update the repository                              
--->   git pull origin master
+```bash
+cd /Your/path/to/koken/storage/plugins/koken-plugin-back2top
+```
+Update the repository                              
 
-
+```bash
+git pull origin master
+```

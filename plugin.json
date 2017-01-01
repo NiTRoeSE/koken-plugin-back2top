@@ -1,10 +1,20 @@
 { 
   "name": "Back2Top",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Adds a button to your site wich scroll animated back to top of your site",
   "demo": "https://medialyse-photography.de",
   "author": {
     "name": "Michael Schunk",
     "link": "https://github.com/NiTRoeSE"
+  },
+  "data": {
+    "custom_css": {
+      "label": "Custom CSS",
+      "info": "If you want to add your own style, add it here! ( Example CSS: width:60px; height:60px; position:fixed;  background:rgba(120, 120, 120, 0.8) url(arrow.svg) no-repeat center 50%; bottom:20px; right:20px; )",
+      "type": "text"
+    }
   }
+
+
+
 }

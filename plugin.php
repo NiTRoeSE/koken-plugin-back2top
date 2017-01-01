@@ -4,14 +4,32 @@ class kokenback2top extends KokenPlugin {
 
   function __construct()
   {
+    $this->require_setup = true;
+    $this->register_hook('before_closing_head', 'customcss');  
     $this->register_hook('before_closing_head', 'back2top');
     
+  }
+  function customcss()
+  {     
+      if( $this->data->custom_css !== ""){
+            ?><style> .back2top_button{ <?php
+  		    echo $this->data->custom_css;
+                ?>}</style> <?php
+        }
+        else{
+            ?>
+            <link rel="stylesheet" type="text/css" href="/storage/plugins/koken-plugin-back2top/css/back2top.css">
+            <?php 
+        }
+        
+        
+      
   }
   function back2top()
   {     
         
         ?>
-        <link rel="stylesheet" type="text/css" href="/storage/plugins/koken-plugin-back2top/css/back2top.css">
+        
         <script>
         $(document).ready(function(){
 

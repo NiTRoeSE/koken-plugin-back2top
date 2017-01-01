@@ -37,3 +37,8 @@ Update the repository                              
 git pull origin master
 ```
 
+Custom Style:
+-------------
+
+It´s possible to add your own style for the 'back2top' button.
+If you wanna have a custom style that matches your site, just add your own css in setup menu.

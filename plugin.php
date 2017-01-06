@@ -44,7 +44,7 @@ class kokenback2top extends KokenPlugin {
             $(function () {
                 $(window).scroll(function () {
                     if ($(this).scrollTop() > 200) { /* if 200 pixel scrolled down, fade in button */
-                        $('.back2top_button').hide().fadeIn();
+                        $('.back2top_button').fadeIn();
                     } else {
                         $('.back2top_button').fadeOut();
                     }
